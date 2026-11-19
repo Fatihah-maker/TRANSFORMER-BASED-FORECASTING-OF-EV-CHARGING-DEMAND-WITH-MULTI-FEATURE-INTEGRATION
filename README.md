@@ -58,7 +58,7 @@ The best-performing configurations for each architecture are summarised below.
 
 | Model | Best Input Configuration | RMSE (kWh) | MAE (kWh) | R² |
 |---|---|---:|---:|---:|
-| LSTM | Historical demand + Traffic | 16.1576 | 11.2205 | 0.8253 |
+| LSTM | Historical demand + Traffic | 16.1700 | 11.2052 | 0.8279 |
 | Transformer | Historical demand + Traffic + Weather | 13.1388 | 9.7781 | 0.8864 |
 
 The best-performing Transformer configuration achieved an approximately 18.68% reduction in RMSE compared with the best-performing LSTM configuration.
